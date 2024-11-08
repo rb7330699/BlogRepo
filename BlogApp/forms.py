@@ -1,4 +1,5 @@
 from django import forms
+import math
 class EmailSendForm(forms.Form):
     name=forms.CharField()
     email=forms.EmailField()
